@@ -1,5 +1,5 @@
 # Panorama
-Uses image mosaicing to generate a panorama from multiple pictures of the same scene.
+Uses image mosaicing to generate a panorama from five pictures of the same scene.
 
 | ![A city street](https://github.com/ginaclepper/panorama/blob/main/original_images/1.jpg) | 
 |:--:| 
