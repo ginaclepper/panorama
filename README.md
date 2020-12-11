@@ -5,6 +5,9 @@ Uses image mosaicing to generate a panorama from multiple pictures of the same s
 |:--:| 
 | *Final panorama* |
 
+
+
+
 First, SIFT is used to identify interest points. NCC is used to establish correspondences.
 
 | ![Blue lines connect corresponding points in two side-by-side images](https://github.com/ginaclepper/panorama/blob/main/results/1%20to%202%20using%20NCC.png) | 
