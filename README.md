@@ -1,9 +1,17 @@
 # Panorama
 Uses image mosaicing to generate a panorama from multiple pictures of the same scene.
 
-| ![A panorama of a city street](https://github.com/ginaclepper/panorama/blob/main/results/panorama%20w%20LM.png?raw=true) | 
+| ![A city street](https://github.com/ginaclepper/panorama/blob/main/original_images/1.jpg) | 
 |:--:| 
-| *Final panorama* |
+| *Original image 1* |
+
+| ![A city street](https://github.com/ginaclepper/panorama/blob/main/original_images/2.jpg) | 
+|:--:| 
+| *Original image 2* |
+
+| ![A city street](https://github.com/ginaclepper/panorama/blob/main/original_images/3.jpg) | 
+|:--:| 
+| *Original image 3* |
 
 First, SIFT is used to identify interest points. NCC is used to establish correspondences.
 
