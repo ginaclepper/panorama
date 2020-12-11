@@ -13,11 +13,17 @@ Uses image mosaicing to generate a panorama from five pictures of the same scene
 |:--:| 
 | *Original image 3* |
 
-First, SIFT is used to identify interest points. NCC is used to establish correspondences.
+First, SIFT is used to identify interest points.
+
+| ![Colorful circles of varying scales mark interest points](https://github.com/ginaclepper/panorama/blob/main/results/1%20Sift.png) | 
+|:--:| 
+| *Interest points for image 1 using SIFT* |
+
+NCC is used to establish correspondences.
 
 | ![Blue lines connect corresponding points in two side-by-side images](https://github.com/ginaclepper/panorama/blob/main/results/1%20to%202%20using%20NCC.png) | 
 |:--:| 
-| *Correspondences between images 1 and 2 using SIFT + NCC* |
+| *Correspondences between images 1 and 2 using NCC* |
 
 Then, automated homography estimation is implemented using RANSAC with a linear least squares algorithm.
 
