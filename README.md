@@ -32,3 +32,7 @@ The homography is refined using a nonlinear least squares algorithm. Matrix mult
 | *Homography mapping image 1 to 3 using the Levenberg–Marquardt algorithm* |
 
 Finally, all images are plotted on the same canvas to create a panorama.
+
+| ![A panorama of a city street](https://github.com/ginaclepper/panorama/blob/main/results/panorama%20w%20LM.png?raw=true) | 
+|:--:| 
+| *Final panorama* |
